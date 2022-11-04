@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #E5E5E5;
+}
+
+@font-face {
+    font-family: "cursed_timer";
+    src: url("cursed_timer.woff");
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 68px;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    margin: 11px 0 26px;
+    border-radius: 5px;
+    font-family: cursed_timer;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.btn {
+    background: none;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-family: cursed_timer;
+    padding: 8px;
+    margin: 4px;
+}
+
+
+
+
